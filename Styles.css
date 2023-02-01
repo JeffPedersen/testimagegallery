@@ -1,0 +1,125 @@
+body, html {
+  height: 100%;
+}
+
+.nav {
+  text-align: center;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/5/5f/Red_X.svg");
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  
+}
+
+.flex-container>* {
+  flex: 0 0 30%;
+}
+
+.wrap    { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}  
+
+header {
+  background-color: grey;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  margin: 40px;
+  font-size: 25px;
+  
+}
+
+li a:hover {
+  background-color: purple;
+  padding: 5px 5px;
+}
+
+
+
+
+/* li {
+  display: inline;
+  
+} */
+
+/* #nav {
+  box-sizing: border-box;
+  width: 712px;
+  height: 39px;
+  background: #C4C4C4;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+} */
+
+/* .header {
+box-sizing: border-box;
+width: 509px;
+height: 100px;
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+} */
+
+/* 
+
+*/
+
+/* .hero {
+display: inline-block;
+width: 509px;
+height: 509px;
+
+} */
+
+/* .grid {
+display: inline-block;
+width: 509px;
+height: 440px;
+} */
+
+/* .grid
+  {
+    display: grid;
+    grid-template-columns: repeat(3,150px);  
+    grid-template-rows: repeat(2,150px); 
+    grid-gap:30px 30px;
+    width: 509px;
+    height: 311.46px;
+  }
+  
+  .grid-item{
+    padding:10px;
+  }
+  
+  img {
+    width: 100%;
+  }
+
+body {
+  
+  position: absolute;
+  width: 905px;
+  height: 1147px;
+} */
+  
+  
